@@ -1,16 +1,18 @@
-代码的目的
-数据的位置
-C:\Users\yyang295\Desktop\0310_post_folder
-C:\Users\yyang295\Desktop\0310_post_folder\folder_0
-里面有具体的照片，就是灾害后的图像，我们不需要管灾害前了，只看灾害后
-每张照片的具体的文件夹所在示例
-C:\Users\yyang295\Desktop\0310_post_folder\folder_0\107806219091079_vs_3754051524846539(0)
-folder_0对应的mild
-folder_1对应的是moderate
-folder_2对应的是severe
+Objective The objective of this module is to process a dataset of post-disaster street view images using a Multimodal Large Language Model (MLLM). The system is designed to perform two tasks: preliminary damage classification and the generation of structured image captions optimized for downstream CLIP model fine-tuning.
 
-我们需要的是用大语言模型对每个图像进行一个初步的分类预测
-然后需要让大语言模型对灾害后的图像进行一个描述，注意这个描述是需要有字数限制的，而且最好可以关注disaster indicators (such as fallen trees, building debris, damaged infrastructure, and flooded roads)，但是要以实际为主
+Dataset Organization The dataset is located at C:\Users\yyang295\Desktop\0310_post_folder. It is organized into three subfolders representing ground-truth damage severity:
 
-我的这个描述是用于后面和灾害后图像进行clip的微调的，因此灾后的图像需要字数合适。
+folder_0: Mild Damage
+
+folder_1: Moderate Damage
+
+folder_2: Severe Damage
+
+Processing Scope: The pipeline exclusively processes post-disaster images (e.g., files located within specific pair folders like ...\107806219091079_vs_3754051524846539(0)), disregarding pre-disaster baselines.
+
+Processing Logic For each image, the model generates:
+
+A Prediction: Categorizing the scene as mild, moderate, or severe.
+
+A Description: A concise text caption focusing on visible disaster indicators (e.g., fallen trees, debris, infrastructure damage, flooding). The length and content of these descriptions are strictly controlled to ensure compatibility with CLIP training requirements.
 
