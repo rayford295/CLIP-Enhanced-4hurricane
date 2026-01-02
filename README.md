@@ -11,5 +11,5 @@ You can access the **street-view disaster dataset** from the following DOI:
 The dataset includes:
 - Pre- and post-disaster images
 - Location and damage type annotations
-- Severity scores (minor, moderate, severe)
+- Severity scores (mild, moderate, severe)
 - Sample image regions from Horseshoe Beach, Florida, after Hurricane Milton
