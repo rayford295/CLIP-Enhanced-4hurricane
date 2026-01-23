@@ -1,13 +1,13 @@
-# 🌪️ A CLIP-Enhanced Multimodal Arbitration Framework for Explainable Disaster Damage Assessment from Street-View Imagery
+# 🌪️ DamageArbiter: A Disagreement-driven Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery
 
 This repository contains the implementation, figures, and dataset links for the paper:  
-**“A CLIP-Enhanced Multimodal Arbitration Framework for Explainable Hurricane-Induced Damage Assessment from Street-View Imagery.”**
+**“DamageArbiter: A Disagreement-driven Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery.”**
 
 ---
 
 ## 📘 Overview
 
-This study proposes a **CLIP-enhanced multimodal arbitration framework** designed to improve the interpretability, reliability, and accuracy of street-view-based disaster damage assessment.  
+This study proposes a **Disagreement-driven Arbitration Framework** designed to improve the interpretability, reliability, and accuracy of street-view-based disaster damage assessment.  
 It systematically combines **Vision Transformer (ViT)** and **CLIP (Contrastive Language–Image Pretraining)** representations, supported by **LLM-generated disaster annotations**.
 
 ---
@@ -48,15 +48,6 @@ The framework integrates:
   <img src="figure/figure5. clip.png" alt="CLIP Model" width="600">
 </p>
 
-### **Figure 6. Framework of Confidence-Based Error Analysis**
-<p align="center">
-  <img src="figure/figure6. Framework of Confidence-Based Error Analysis.png" alt="Confidence-Based Error Analysis" width="600">
-</p>
-
-### **Figure 7. Semantic Detection Pipeline**
-<p align="center">
-  <img src="figure/figure7. Semantic Detection.png" alt="Semantic Detection" width="600">
-</p>
 
 ### **Figure 8. Spatial Mapping Results**
 <p align="center">
@@ -87,41 +78,11 @@ The dataset includes:
 - Sample image regions from **Horseshoe Beach, Florida**, after **Hurricane Milton**
 
 ---
----
-
-## 🧭 Repository Structure
-
-📦 **CLIP-Enhanced-4hurricane**  
-│  
-├── 📁 **code/** — Source code for model training and evaluation  
-│   ├── 🧠 `inference.py` — Inference and prediction pipeline  
-│   ├── ⚙️ `train_clip.py` — CLIP model fine-tuning and multimodal arbitration  
-│   └── 🧩 `utils/` — Utility functions and helper scripts  
-│  
-├── 📁 **dataset/** — Dataset structure and metadata  
-│   ├── 🗂️ `metadata.csv` — Metadata and label information  
-│   └── 🌍 `samples/` — Sample image pairs and annotations  
-│  
-├── 🖼️ **figure/** — Figures used in the paper and documentation  
-│   ├── `figure1.studyarea map.png`  
-│   ├── `figure2.Label-example.png`  
-│   ├── `figure3.Methodology framework.png`  
-│   ├── `figure4.VIT.png`  
-│   ├── `figure5.clip.png`  
-│   ├── `figure6.Framework of Confidence-Based Error Analysis.png`  
-│   ├── `figure7.Semantic Detection.png`  
-│   └── `figure8.mapping.png`  
-│  
-├── 📜 `LICENSE` — Academic research-only license  
-├── 🪶 `README.md` — Project documentation  
-└── 🧾 `requirements.txt` — Dependencies and environment setup  
-
----
 
 ## ⚠️ Usage and Permissions
 
 All **codes, figures, and datasets** in this repository were developed and curated **solely for academic research purposes** as part of  
-*“A CLIP-Enhanced Multimodal Arbitration Framework for Explainable Hurricane-Induced Damage Assessment from Street-View Imagery.”*
+*“ DamageArbiter: A Disagreement-driven Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery.”*
 
 If you wish to **reuse, reproduce, modify, or distribute** any portion of the **codebase, figures, or dataset**, please **contact the author in advance** to obtain written permission.
 
