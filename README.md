@@ -78,7 +78,20 @@ The dataset includes:
 - Sample image regions from **Horseshoe Beach, Florida**, after **Hurricane Milton**
 
 ---
+## 🏛️ Conference Presentation (AAG 2026)
 
+This work has been **accepted for presentation** at the **2026 Annual Meeting of the American Association of Geographers (AAG 2026)**.
+
+- **Session:** AAG GIS Specialty Group — **Honors Competition for Student Papers**  
+- **Presentation Type:** Gallery Presentation (**Student Honors Competition**)  
+- **Official AAG Link:** https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541  
+
+**Presentation Schedule:**
+- **Date:** Tuesday, March 17, 2026  
+- **Time:** 4:10 PM – 5:30 PM  
+- **Location:** Imperial B, Ballroom Level, Hilton Union Square  
+
+---
 ## ⚠️ Usage and Permissions
 
 All **codes, figures, and datasets** in this repository were developed and curated **solely for academic research purposes** as part of  
